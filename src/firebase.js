@@ -10,14 +10,8 @@
    import 'firebase/compat/firestore';
 
    const firebaseConfig = {
-    apiKey: "AIzaSyARxavVrbPr_ONtfrgGLFn99Bq_UxiJH4Y",
-    authDomain: "clone-3ccac.firebaseapp.com",
-    projectId: "clone-3ccac",
-    storageBucket: "clone-3ccac.appspot.com",
-    messagingSenderId: "332399401494",
-    appId: "1:332399401494:web:3c24b2e33d26c65b9d3337",
-    measurementId: "G-YJ17F3FN8V"
   }; 
+// paste your firebase config 
 
   const firebaseApp = firebase.initializeApp(firebaseConfig);
 
