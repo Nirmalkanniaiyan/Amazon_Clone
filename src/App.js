@@ -15,7 +15,8 @@ import { Elements } from "@stripe/react-stripe-js"
 import Orders from "./Orders";
 
 
-const promise = loadStripe("pk_test_51MZuuRSBtHjplQmupdVC7wunvEurYMfGGfjqitOA5tYHSjv3kKjxmMKg1zokfwJ24FWSSNniKRt1ESedo44JCZOv00rECa8tpA");
+const promise = loadStripe("");
+// give your stripe api key here
 // loadstripe loads the stripe.js and initalizes a stripe object 
 // the loadstripe is called with your publishable key
 // The Stripe publishable key is used to identify your account with Stripe
